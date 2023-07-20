@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "5abf6366-0030-4cc2-bc6a-a6c1dc645893",
+		"name": "test_adoclic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21346203"
+	},
+	"item": [
+		{
+			"name": "populate_entity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/populate",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"populate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_entities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/Security",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"Security"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
